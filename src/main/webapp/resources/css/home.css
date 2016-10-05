@@ -1,0 +1,78 @@
+body{
+    background: #FCFCFC;
+    font-family: 'Freemono';
+}
+#departmentDiv{
+    display: inline-block;
+    margin-top: 250px;
+    margin-left: 470px;
+    cursor: pointer;
+}
+#employeeDiv{
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 80px;
+}
+#buttonDepartment{
+    width: 150px;
+    height: 40px;
+    font-family: 'Freemono';
+    font-size: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+#buttonEmployee{
+    width: 150px;
+    height: 40px;
+    font-family: 'Freemono';
+    font-size: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+#buttonEmployee:hover{
+    width: 150px;
+    height: 40px;
+    font-family: 'Freemono';
+    font-size: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    background: #313233;
+    color: white;
+}
+#buttonEmployee:focus{
+    outline: none;
+}
+#buttonEmployee:active{
+    text-decoration:line-through;
+}
+#buttonDepartment:hover{
+    width: 150px;
+    height: 40px;
+    font-family: 'Freemono';
+    font-size: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    background: #313233;
+    color: white;
+}
+#buttonDepartment:focus{
+    outline: none;
+}
+#buttonDepartment:active{
+    text-decoration:line-through;
+}
+#buttonEmployee:active{
+    width: 150px;
+    height: 40px;
+    font-family: 'Freemono';
+    font-size: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    background: #313233;
+    color: white;
+}
